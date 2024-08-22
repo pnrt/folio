@@ -217,7 +217,7 @@ section {
     padding: 20px; /* Padding inside the border */
     z-index: 1;
     position: relative;
-    align-self: first center;
+    align-self: center;
 }
 /* -------------------------- */
 
@@ -681,7 +681,6 @@ section {
 .profile-header-about {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -706,23 +705,22 @@ section {
 }
 
 .profile-stats-about {
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    margin-top: 20px;
-    margin-left: -90px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    column-gap: 5%;
 }
 
 
 .profile-stats-about div {
-    margin-left: 20px;
+  
     font-size: 16px;
 }
 .profile-stats-about div:nth-child(1) {
     margin-right: auto;
 }
 .profile-stats-about div:nth-child(2) {
-    padding-left: 40px;
+    
 }
 .profile-stats-about div strong {
     font-weight: bold;
@@ -993,6 +991,10 @@ footer {
         line-height: 40px;
     }
 
+    #home .content {
+        align-self: center;
+    }
+    
     .logo {
         display: block;
         left: 50%;
@@ -1034,10 +1036,9 @@ footer {
         object-fit: cover;
     }
     .profile-stats-about div {
-        margin-left: 20px;
         font-size: 14px;
     }
     .profile-stats-about div:nth-child(2) {
-        padding-left: 20px;
+
     }
 }
