@@ -3,44 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <div class="menu-icon" id="menu-icon">&#9776;</div>
+        <div class="logo">
+            <i class="fa fa fa-heart-o" aria-hidden="true"></i>
+        </div>
         <nav>
-            <ul>
+            <ul id="nav-links" class="open-sans">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <section id="home">
-        <h2>Welcome to my portfolio!</h2>
-        <p>Hi, I'm Pankaj kumar Rout, a web developer based in India.</p>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am passionate about creating clean, responsive, and user-friendly websites.</p>
-    </section>
-    <section id="portfolio">
-        <h2>My Portfolio</h2>
-        <div class="portfolio-item">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
+
+    <aside id="side-menu">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </aside>
+    
+    <section id="home" class="fade-in">
+        <div class="content">
+            <h1>Welcome to my digital canvas - a space where creativity meets innovation.</h1>
+            <p class="inconsolata"> 
+                I Pankaj kumar Rout, and this portfolio is more than just a 
+                collection of projects. It’s a journey that started with curiosity 
+                and evolved into a relentless pursuit of crafting experiences that
+                 not only solve problems but also tell stories.</p>
+            <div id="blinking-text">|</div>
         </div>
-        <!-- Add more portfolio items as needed -->
     </section>
+    <section class="fade-in">
+        <div class="graphicbg1">      
+        <div class="mac-window">
+            <div class="mac-title-bar">
+                <div class="mac-buttons">
+                    <span class="mac-close"></span>
+                    <span class="mac-minimize"></span>
+                    <span class="mac-fullscreen"></span>
+                </div>
+                <div class="mac-title">The Beginning:</div>
+            </div>
+            <div class="mac-content">
+                <p>Like most great stories, mine began with a 
+                    spark of curiosity. I was always fascinated 
+                    by how things worked, whether it was the intricate 
+                    design of a website or the seamless flow of an application.</p><p> 
+                    But I didn’t just want to understand them—I wanted to create 
+                    them. So, I dived headfirst into the world of technology and design, 
+                    armed with nothing but passion and a desire to learn.</p>
+                <p>.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="iphonephone">
+            <div class="screenphone">
+                <div class="notchphone"></div>
+                <div class="contentphone">
+                    <div class="feed-container">
+                        <div class="post-header">
+                            <img src="bgsvg.svg" alt="Profile Picture" class="profile-pic">
+                            <span class="post-username">pankajroutt</span>
+                        </div>
+                        <img src="bgsvg.svg" alt="Post Image" class="post-image">
+                        <div class="post-actions">
+                            <i class="fa fa-heart instagram-gradient-heart" aria-hidden="true"></i>
+                            <i class="fa fa-comment-o" aria-hidden="true" ></i>
+                            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="post-caption-like">
+                            <div class="like-count">liked by <p>ilove</p></div>
+                        </div>
+                        <div class="post-caption">
+                            <h5>thejourney:</h5> 
+                            <p>Every project here represents a chapter in my journey—a challenge that
+                                 I embraced, a problem that I solved, and a lesson that I learned. From
+                                  the first line of code I wrote to the complex systems I’ve engineered, each piece
+                                   of work is a testament to my growth as a creator. Along the way, I’ve collaborated
+                                    with brilliant minds, tackled real-world challenges, and turned ideas into reality.</p>
+                            <h6>View all comments</h6>
+                        </div>
+                    </div>
+                <!-- Additional posts -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="twitterbody">
+        <div class="twittersection">
+            <div class="profiletw">
+                <img src="bgsvg.svg" alt="Profile Image">
+                <div>
+                    <div class="usernametw">Pankaj Rout</div>
+                    <div class="handletw">@pankajroutt</div>
+                </div>
+            </div>
+
+            <div class="contenttw">
+                <h5>The Craft:</h5>
+                But what truly drives me is not just the end result,
+                 but the process—the craft of building something from the ground
+                  up, piece by piece. Whether it’s designing a user interface that’s both
+                   beautiful and intuitive, or writing code that’s efficient and scalable, 
+                   I approach each task with the same level of dedication and attention to detail.
+
+                <img src="bgsvg.svg" alt="Content Image">
+            </div>
+
+            <div class="actionstw">
+                <div>
+                    <i class="fa fa-comment"></i> <span>12</span>
+                </div>
+                <div>
+                    <i class="fa fa-retweet"></i> <span>34</span>
+                </div>
+                <div>
+                    <i class="fa fa-heart"></i> <span>56</span>
+                </div>
+                <div>
+                    <i class="fa fa-share"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- 
+    <section class="chat-body">
+        <div class="chat-container">
+            <div class="chat-header">
+                Chat
+            </div>
+            <div class="chat-body">
+                <div class="chat-message ai-message">
+                    The Future:
+                </div>
+                <div class="chat-message user-message">
+                    Looking ahead, I see endless possibilities.
+                     Technology is constantly evolving, and with it
+                     , so are the opportunities to innovate and create. My goal
+                      is to stay at the forefront of these changes, constantly learning
+                      , adapting, and pushing the boundaries of what’s possible. And I invite
+                       you to join me on this journey.
+                </div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" class="chat-input" placeholder="Type a message..." />
+                <button class="send-button">Send</button>
+            </div>
+        </div>
+    </section> -->
+    <section>
+        <div class="terminalflex">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="buttons">
+                            <div class="button red"></div>
+                            <div class="button yellow"></div>
+                            <div class="button green"></div>
+                        </div>
+                        <div class="title"><i class="fa fa-rocket"></i> Pathminal</div>
+                    </div>
+                    <div class="terminal-body">
+                        
+                            <div class="prompt">user@localhtml:~$</div>
+                            <div class="command">ls</div>
+                            <div class="output">Desktop  Documents  Downloads  Music  Pictures  Videos</div>
+                        
+                            <div class="prompt">user@localhtml:~$</div>
+                            <div class="command">cd Documents/TheFuture</div>
+                            <div class="output">future.txt love.txt</div>
+
+                            <div class="prompt">user@localhtml Thefuture:~$</div>
+                            <div class="command">cat future.txt</div>
+                            <div class="outputlast">The Future: <br> 
+                                Looking ahead, I see endless possibilities. 
+                                Technology is constantly evolving, and with it
+                                , so are the opportunities to innovate and create. 
+                                My goal is to stay at the forefront of these changes, constantly
+                                    learning, adapting, and pushing the boundaries of what’s possible
+                                    . And I invite you to join me on this journey.
+                            </div>
+
+                            <div class="prompt">user@localhtml Thefuture:~$</div>
+                            <div class="command">hydra -l username -P love.txt ssh://172.20.10.69</div>
+                            <div class="outputlaster"> Success
+                                <div class="loadingter">
+                                    <span>.</span><span>.</span><span>.</span>
+                                </div>  
+                            </div>
+                    </div>
+                </div>
+        </div>
+    </section>    
+    <section id="about" class="section-about">
+        <div class="profile-container-about">
+
+            <!-- Profile Header -->
+            <div class="profile-header-about">
+                
+                <div class="profile-info-about">
+                    <h2>pankajroutt</h2>
+                </div>    
+                
+                <div class="profile-stats-about">
+                    <div><img src="bgsvg.svg" alt="Profile Picture" class="profile-pic-about"></div>
+                    <div><strong>50</strong><br> posts</div>
+                    <div><strong>500</strong><br> followers</div>
+                    <div><strong>200</strong><br> following</div>
+                </div>
+    
+                <div class="bio-about">
+                    <strong>Pankaj kumar Rout</strong><br>
+                    I am a passionate web developer and designer with a knack for creating sleek, dynamic, and user-friendly web experiences.
+                With a strong background in HTML, CSS, JavaScript, and more, I love bringing innovative ideas to life in the digital world.🌟💻
+                </div>
+                
+            </div>
+            <hr>
+            <!-- Icon Navigation (Grid, List, etc.) -->
+            <div class="icons-about">
+                <i class="fa fa-th active"></i>
+                <i class="fa fa-list"></i>
+                <i class="fa fa-user-tag"></i>
+            </div>
+        
+            <!-- Gallery -->
+            <div class="gallery-about">
+                <img src="bgsvg.svg" alt="Post 1">
+                <img src="bgsvg.svg" alt="Post 2">
+                <img src="bgsvg.svg" alt="Post 3">
+                <img src="bgsvg.svg" alt="Post 4">
+                <img src="bgsvg.svg" alt="Post 5">
+                <img src="bgsvg.svg" alt="Post 6">
+            </div>
+        
+        </div>
+        
+    </section>
+    <section class="thankyoubody">
+        <div class="thank-you">
+            <div class="wave">❤️</div>
+            <h1>Thank You!</h1>
+            <p>Thank you for taking the time to 
+                explore my portfolio. Each project is a part of my story
+                , and I hope they resonate with you as much as they do
+                 with me. If you’re as passionate about creating and innovating as I
+                  am, let’s connect and see what we can build together.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Details about this project...</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Details about this project...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="">
+
+        <div class="skills-section">
+            <h2>Skills</h2>
+            <p>Here are some of my technical skills...</p>
+            <div class="skills-grid">
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+                    <div class="tooltip">JavaScript</div>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
+                    <div class="tooltip">Python</div>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo">
+                    <div class="tooltip">Java</div>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo">
+                    <div class="tooltip">React</div>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js Logo">
+                    <div class="tooltip">Node.js</div>
+                </div>
+                <div class="skill">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 Logo">
+                    <div class="tooltip">CSS3</div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>You can reach me at example@example.com.</p>
+        <h2>Contact</h2>
+        <p>Let's get in touch! Here's how you can reach me...</p>
     </section>
+
     <footer>
-        <p>&copy; 2024 Pankaj kumar Rout. All rights reserved.</p>
+        <p>&copy; 2024 Pankaj kumar Rout</p>
     </footer>
+<script defer src="script.js"></script>
 </body>
 </html>
