@@ -719,9 +719,7 @@ section {
 .profile-stats-about div:nth-child(1) {
     margin-right: auto;
 }
-.profile-stats-about div:nth-child(2) {
-    
-}
+
 .profile-stats-about div strong {
     font-weight: bold;
 }
@@ -1038,7 +1036,5 @@ footer {
     .profile-stats-about div {
         font-size: 14px;
     }
-    .profile-stats-about div:nth-child(2) {
-
-    }
+    
 }
