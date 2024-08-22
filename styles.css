@@ -687,8 +687,8 @@ section {
 .profile-pic-about {
 
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
 }
 
@@ -706,7 +706,7 @@ section {
 
 .profile-stats-about {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% auto auto auto;
     align-items: center;
     column-gap: 5%;
 }
@@ -1034,13 +1034,13 @@ footer {
     .profile-stats-about div:nth-child(2) {
         padding-left: 17px;
     }
-    .profile-pic-about {
+    /* .profile-pic-about {
 
         border-radius: 50%;
         width: 80px;
         height: 80px;
         object-fit: cover;
-    }
+    } */
     .profile-stats-about div {
         font-size: 14px;
     }
