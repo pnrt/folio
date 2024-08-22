@@ -1026,4 +1026,18 @@ footer {
     .profile-stats-about div:nth-child(2) {
         padding-left: 17px;
     }
+    .profile-pic-about {
+
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    .profile-stats-about div {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .profile-stats-about div:nth-child(2) {
+        padding-left: 20px;
+    }
 }
