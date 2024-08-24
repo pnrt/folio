@@ -836,7 +836,9 @@ section {
     gap: 20px;
     flex-wrap: wrap;
 }
-
+.projects {
+    color: #000000;
+}
 .project-card {
     background: #fff;
     padding: 20px;
@@ -1034,13 +1036,11 @@ footer {
     .profile-stats-about div:nth-child(2) {
         padding-left: 17px;
     }
-    /* .profile-pic-about {
-
-        border-radius: 50%;
+    .profile-pic-about {
         width: 80px;
         height: 80px;
         object-fit: cover;
-    } */
+    }
     .profile-stats-about div {
         font-size: 14px;
     }
