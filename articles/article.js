@@ -13,5 +13,5 @@ window.onload = function() {
 }
 
 function goHome() {
-    window.location.href = 'index.html';
+    window.location.href = 'ndex.html';
 }
