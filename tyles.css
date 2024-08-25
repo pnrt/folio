@@ -1,0 +1,113 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(230, 104, 60, 0.2);
+    padding: 10px;
+    text-align: center;
+    /* background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);f1f1f1 */
+}
+
+main {
+    font-family: "Roboto", sans-serif;
+    padding: 50px;
+}
+
+button {
+    background-color: rgba(240, 148, 51, 0.5);
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9dccfe;
+}
+
+#article-list .article-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#article-list .article-card:hover {
+    background-color: rgba(230, 104, 60, 0.1);
+}
+
+#error-page {
+    text-align: center;
+}
+
+#article-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#article-title {
+    text-align: center;
+}
+
+#article-content {
+    font-family: "Open Sans", sans-serif;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Basic input styling */
+input {
+    width: 50%;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+    outline: none;
+}
+
+/* Input hover effect */
+input:hover {
+    background-color: #e9e9e9;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 8px rgba(0, 102, 204, 0.3);
+    background-color: #fff;
+}
+
+/* Placeholder styling */
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Disabled input state */
+input:disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+    border-color: #ddd;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
+.material-symbols-outlined {
+    color: black;
+}
